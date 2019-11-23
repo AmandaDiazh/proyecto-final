@@ -1,0 +1,272 @@
+body{
+	background: #d9d9d9; /*f2f2f2*/
+}
+/*logo ----------------------cabezera------*/
+
+
+/*div.promociones*/
+.promocion .img-responsive{
+	width: 500px;
+	height: 300px;
+
+}
+/*Boton up*/
+.simplescrollup__button {
+	position: fixed;
+	bottom: 3rem;
+	right: 3rem;
+	transition: 1s all;
+	z-index: 10000;
+}
+.simplescrollup__button--show {
+	transform: translateX(0);
+}
+.simplescrollup__button--hide {
+	transform: translateX(100px);
+}
+ @keyframes highlight {
+ 0% {
+ border-color:#30AFCC;
+ border-width:medium;
+}
+ 50% {
+ background: #58CBE5;
+}
+ 100% {
+ background: none;
+}
+}
+.highlight {
+	animation: highlight 2s;
+}
+
+.ir-arriba {
+	background:#F16040;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	padding:15px;
+	bottom:10px;
+	right:10px;
+	/*
+	cursor:pointer;
+	position: fixed;
+	*/
+}
+
+/*Fin boton up*/
+.menu{
+	background: #ff794d; /*F16040*/
+	color:white;
+}
+.s-online{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background:coral ;
+    color:whitesmoke;
+	font-size: 18px;
+	font-weight: 500px;
+}
+
+.text-color{
+	color: black;
+	padding: 10px;
+}
+
+
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+	font-size: 20px;
+}
+
+.navbar-default .navbar-brand{
+	color: white;
+	font-size: 20px;
+}
+/*
+.footerD{
+	background: black;
+	color: white;
+}*/
+
+.titulo-grande {
+	font-size: 50px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+.p-mediano {
+	font-size: 20px;
+	text-align: center;
+}
+.imgn img {
+	width: 100%;
+}
+.imgn {
+	border: none;
+	text-align: center;
+}
+
+/*.card{
+	padding: 10px;
+	background: #5dd55d;
+	color: white;
+}*/
+
+/*transisiones de css buscar engoogle*/
+
+ 
+.iconos{
+    display: flex;
+    
+}
+ li {
+    list-style-type: none;
+}
+li:not(:last-child) {
+    margin-right: 7px;
+}
+.iconos{
+    justify-content: center;
+    margin-top: 14px;
+}
+.iconos a{
+    
+    background-color:rgb(250, 237, 237);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 22px;
+    color: red;
+    line-height: 40px;
+    text-align: center;
+    /* 🎉 transition: [propiedad/all][duración][timing-function][delay] */
+    transition: background-color 1.5s ease .3s,
+                color .5s ease .5s,
+                transform 1s ease 0s;
+    /* transition: all .5s ease; */
+}
+ .container a:hover {
+    background-color: rgb(19, 18, 18);
+    color: rgb(243, 236, 236);
+    transform: scale(1.2);
+}
+/*btn*/
+.btn  {
+	display: inline-block;
+	background-color:coral;
+	text-decoration: none;
+	color:#FFF;
+	font-size: 22px;
+
+	padding: 8px 15px;
+	border-radius: 12px;
+
+	transition: All .5s ease;
+} 
+.btn:hover {
+	background-color:#00000000;
+	color: red;
+}
+/*mapa google*/
+.map-google {
+	width: 100%;
+	height: 300px;
+	outline:1px solid deepskyblue; 
+	margin-top: 16px;
+	margin-left: 0px;
+	
+}
+
+/*decoracion texto
+ .titulo-grande {
+	font-style: oblique;
+	font-weight: 600;
+	color: darkblue;
+}
+*/
+
+h2:first-of-type {
+	background-color: coral;  /*El primero de su tipo */
+	font-style: oblique;
+	font-weight: 600;
+	color: black;
+}
+h1{
+	font-style: oblique;
+	font-weight: 600;
+	color: red;
+}
+h2{
+	background-color: coral;  /*El primero de su tipo */
+	
+	font-weight: 600;
+	color:rgb(0, 0, 0);
+
+}
+h2:last-of-type {
+	background-color:  coral;  /*El ultimo de su tipo */
+}
+/*servicios online*/
+span:only-of-type{
+	color: red;
+}
+
+h2:only-of-type {
+			color:red; /* unico elemento span dentro de esa seccion */
+			font-style: oblique;
+			font-weight: 1200;
+			text-transform: capitalize;
+			
+			
+		}
+figure:only-of-type{
+	color: red;
+	
+
+}		
+	
+#fere p:only-of-type{
+	color: whitesmoke;
+	font-weight: 900;
+	font-style: italic;
+	
+
+}
+.thumbnail h3{
+	color:blue;
+	font-weight: 600;
+	text-decoration-line: underline;
+	
+	
+	
+}
+
+.thumbnail{
+	border: mediumblue;
+}
+/*loren de bostrap y del footer derechos reservados*/
+.footerD p:first-child:first-line {
+	color: orangered;
+	
+}
+.carousel-caption p {
+	color: orangered;
+	font-size: 60px;
+}
+/*servonline*/
+#fere{
+	border-color:red;
+	padding: 10px;
+	border-style: dotted;
+	border-width: 10px;
+	
+}
+.footerD{
+	background-color:black;
+	color: rgb(243, 236, 236);
+	padding:20px;
+}
